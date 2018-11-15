@@ -35,6 +35,28 @@ To get up and running with the project locally, follow the following steps.
 
     Now visit [localhost:8080](http://localhost:8080)
 
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
+```
+
 ## Conventions
 
 Use the [Enginering playbook](https://github.com/andela/engineering-playbook]) conventions for writing commits, branch naming and Pull request body and title conventions.
