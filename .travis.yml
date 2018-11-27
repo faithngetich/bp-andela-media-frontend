@@ -3,9 +3,12 @@ language: node_js
 node_js:
   - "stable"
 
-install:
-  - yarn
+before_script:
+  - npm install
 
+script:
+  - npm run build
+  - npm run test
 
 before_install:
   - export CHROME_BIN=/usr/bin/google-chrome
@@ -13,7 +16,6 @@ before_install:
   - sh -e /etc/init.d/xvfb start
 
 
-  cache:
+cache:
   directories:
     - "node_modules"
-    #try another commit

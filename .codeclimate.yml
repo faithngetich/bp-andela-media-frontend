@@ -1,0 +1,19 @@
+engines:
+  csslint:
+    enabled: true
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+ratings:
+  paths:
+  - "src/components/*.vue"
+  - "**.js"
+exclude_paths:
+  - test/
+  - "node_modules"
