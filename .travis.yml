@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+  - "stable"
+
+install:
+  - yarn
+
+
+before_install:
+  - export CHROME_BIN=/usr/bin/google-chrome
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+
+
+  cache:
+  directories:
+    - "node_modules"
+    #try another commit

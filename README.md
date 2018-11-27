@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/andela/bp-andela-media-frontend.svg?branch=master)](https://travis-ci.org/andela/bp-andela-media-frontend)
+
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/227d77ba0fb6b987e742/test_coverage)](https://codeclimate.com/github/andela/bp-andela-media-frontend/test_coverage)
+
 # Andela Media frontend
 Andela media lets the Andela media team manage images and photos of the great Andela fraternity.
 
