@@ -9,6 +9,7 @@ before_script:
 script:
   - npm run build
   - npm run test
+  - npm run coveralls
 
 before_install:
   - export CHROME_BIN=/usr/bin/google-chrome
