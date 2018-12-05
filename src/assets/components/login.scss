@@ -1,0 +1,169 @@
+html {
+    margin: 0;
+    overflow-y: hidden;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  .login-image {
+    background: url("../../../static/images/home.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+  .andela-media {
+    height: 79px;
+    color: #FFFFFF;
+    font-size: 56px;
+    font-family: $font-family-medium !important;
+    letter-spacing: 1.63px;
+    line-height: 72px;
+    padding-bottom: 105px;
+    font-weight: 500;
+  
+    
+  }
+  .french-rose {
+    height: 638px;
+    width: 1113px;
+    background: linear-gradient(225deg, #006EFE 0%, rgb(7, 7, 255) 100%);
+    opacity: .25;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .login-btn {
+    height: 52px;
+    width: 250px;
+    background-color: #3E59E0;  
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    outline: none;
+  }
+  
+  .homepage-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+  }
+  .icon-wrapper{
+    background-color: #FFFFFF;
+    height: 52px;	
+    width: 52px;
+    padding-top: 10px;
+    border-color: 1px solid #3E59E0;
+    
+  }
+  .google-icon{
+    height: 32px;	
+    width: 32px;
+  }
+  .login-button{
+    height: 52px;
+    width: 300px;
+    display: inline-flex;
+  }
+  
+  .andela-logo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 8px;
+  }
+  
+  .lens-icon{
+    height: 161px;
+    width: 155px;
+  }
+  .home-borad-group{
+    display: flex;
+    position: fixed;
+    bottom:0;
+    padding: 18px;
+  }
+  
+  .home-borad {	
+    height: 10px;	
+    width: 94px;	
+    border-radius: 100px;	
+    background-color: #3E59E0;	
+    box-shadow: -11px 0 10px 0 rgba(0,0,0,0.08);
+  
+  }
+  .home-borad-white {	
+    height: 10px;	
+    width: 94px;
+    margin-left: 25px;	
+    border-radius: 100px;	
+    background-color: #FFFFFF;  
+    box-shadow: -11px 0 10px 0 rgba(0,0,0,0.08);
+  }
+  
+  .square-top-left {
+        height: 108px;
+      width: 108px;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      border: solid 2px #FFFFFF;
+      position: absolute;
+      top: 15%;
+      left: 200px;
+      border-left: none;
+      border-top: none;
+  }
+  .square-top-right {
+        height: 108px;
+      width: 108px;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(270deg);
+      border: solid 2px #FFFFFF;
+      position: absolute;
+      top: 15%;
+      left: 79%;
+      border-left: none;
+      border-top: none;
+  }
+  .square-bottom-left {
+        height: 108px;
+      width: 108px;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(90deg);
+      border: solid 2px #FFFFFF;
+      position: absolute;
+      top: 72%;
+      left: 200px;
+      border-left: none;
+      border-top: none;
+  }
+  .square-bottom-right {
+        height: 108px;
+      width: 108px;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(360deg);
+      border: solid 2px #FFFFFF;
+      position: absolute;
+      top: 72%;
+      left: 79%;
+      border-left: none;
+      border-top: none;
+  }
+  
+  
+  // @media screen and (min-width: 1440px) {
+  //   .french-rose {
+  //       width: 1440px;
+  //       height: 768px;
+  //     }
+  // }
+  
+  // @media screen and (max-width: 1440px) {
+  //   .french-rose {
+  //       height: 638px;
+  //       width: 1113px;
+  //     }  
+  // } 
+  

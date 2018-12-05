@@ -1,0 +1,22 @@
+$font_path: '~@/assets/fonts/';
+ @font-face {
+    font-family: DINPro-Light;
+    src: url($font_path + 'DINPro-Light.ttf') format('truetype');
+    src: url($font_path + 'DINPro-Light.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: DINPro-Regular;
+    src: url($font_path + 'DINPro-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: DINPro-Medium;
+    src: url($font_path + 'DINPro-Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: DINPro-Bold;
+    src: url($font_path + 'DINPro-Bold.ttf') format('truetype');
+  }
+  

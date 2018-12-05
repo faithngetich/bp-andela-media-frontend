@@ -10,11 +10,21 @@ import router from './router';
 import axios from './backend/axios';
 
 Vue.config.productionTip = false;
-Vue.use(VueAxios, { axios: axios });
+Vue.use(VueAxios, axios);
 Vue.use(Vuetify, {
   iconfont: 'mdi',
 });
 
+
+Vue.axios.get('https://api-prod.andela.com', {
+  headers: {
+    'Access-Control-Allow-Origin': '*',
+    'Content-Type': 'application/json',
+  },
+}).then((response) => {
+  // eslint-disable-next-line no-console
+  console.log(response.data);
+});
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
