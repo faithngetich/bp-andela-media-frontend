@@ -66,7 +66,7 @@ npm test
 
 ## Conventions
 
-Use the [Enginering playbook](https://github.com/andela/engineering-playbook]) conventions for writing commits, branch naming and Pull request body and title conventions.
+Use the [Engineering playbook](https://github.com/andela/engineering-playbook) conventions for writing commits, branch naming and Pull request body and title conventions.
 
 ## Contributors
 
